@@ -141,6 +141,7 @@ export default {
     },
   },
   created: function () {
+    document.title = "Digicard | Práctica Vuetify"
     let datosLS = JSON.parse(localStorage.getItem("listaTareas"));
     if (datosLS === null) {
       this.listaTareas = [];

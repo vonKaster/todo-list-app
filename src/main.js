@@ -6,7 +6,9 @@ import vuetify from './plugins/vuetify'
 import '@babel/polyfill'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
+import VueMeta from 'vue-meta';
 
+Vue.use(VueMeta);
 Vue.config.productionTip = false
 
 new Vue({
